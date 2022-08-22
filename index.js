@@ -3,7 +3,7 @@ class Board {
     let x = 'x'
     let l = 'l'
     let r = 'r'
-    let o = 'o'
+    let o = '❤️'
 
     let tiles = {
       x: 'openSpace.png',
