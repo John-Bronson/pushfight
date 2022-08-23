@@ -1,9 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
+import Board from "./Board.js"
 
 const App = () => {
   return (
-    <p>Hello World!</p>
+    <Board />
   )
 }
 
