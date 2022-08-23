@@ -25,9 +25,11 @@ const Board = () => {
   return (
     <div>
       <p>Game Board will go here</p>
-      {boardState.map((tile, index) =>
-        <Tile tile={tile} key={index} />
-      )}
+      {
+        boardState.map((row) =>
+          row.map((tile, index) =>
+            <Tile tile={tile} key={index} />
+          ))}
     </div>
   )
 }
