@@ -7,7 +7,8 @@ const Tile = (props) => {
   }
 
   return (
-    <div className="gameTile">
+    <div className="gameTile" onClick={() => alert(`row: ${props.row} col: ${props.col}`)}>
+      {`${props.row}, ${props.col}`}
       {props.tile}
     </div>
   )

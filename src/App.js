@@ -4,7 +4,10 @@ import Board from "./Board.js"
 
 const App = () => {
   return (
-    <Board />
+    <div>
+      <h1>PUSHFIGHT</h1>
+      <Board />
+    </div>
   )
 }
 
